@@ -2,16 +2,23 @@ body{
     margin:0;
     font-family: Arial,sans-serif;
 }
-header {
+header {  
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000; 
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
 }
-main {
-    margin-top: 80px; 
+
+main{
+  margin-top: 80px;
 }
+
+
+
 header nav{
     background-color: white;
     color: white;
@@ -19,6 +26,8 @@ header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    
 }
 
 header nav ul{
@@ -29,6 +38,7 @@ header nav ul{
     justify-content: center;
     align-items: center;
     gap:20px;
+    
 }
 
 header nav ul li a{
@@ -89,7 +99,7 @@ header nav ul li a:focus:after{
     padding: 10px;
 }
 .icons a:hover{
-    color: rgb(238, 238, 238);
+    color: rgba(113, 112, 112, 0.936);
 }
 
 .menu{
@@ -278,7 +288,7 @@ header nav ul li a:focus:after{
     background-color: #1C1C1C;
     padding: 30px 20px;
     font-family: Arial, sans-serif;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -296,7 +306,7 @@ header nav ul li a:focus:after{
 }
 
 .social-links a {
-    color: #000000;
+    color: #ffffff;
     font-size: 20px;
     text-decoration: none;
 }
@@ -323,7 +333,7 @@ header nav ul li a:focus:after{
   background-color: #f1f1f1;
   padding: 40px 20px;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 130px auto 20px auto;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -375,43 +385,18 @@ header nav ul li a:focus:after{
   background-color: #555;
 }
 
-/* Estilo General */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-}
 
-/* Header */
-header {
-  text-align: center;
-  position: relative;
-}
 
-.header-image {
-  width: 100%;
-  height: auto;
-  max-height: 300px;
-  object-fit: cover;
-}
 
-header h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 36px;
-  color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-}
+
 
 /* Contenedor Principal */
 .container {
   display: flex;
   max-width: 1200px;
-  margin: 20px auto;
+  margin:  130px auto 20px auto;
   gap: 20px;
+  padding: 0 20px;
 }
 
 /* Filtros */
@@ -556,14 +541,9 @@ header h1 {
 }
 
 
-/* Footer */
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  margin-top: 20px;
-}
+
+
+
 
 /* Estilo para la sección "Sobre Nosotros" */
 .about-us {
@@ -576,7 +556,7 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 8px;
-  margin-bottom: 20px;
+  
 }
 
 .about-content h2 {
